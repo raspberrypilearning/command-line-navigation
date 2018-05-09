@@ -1,25 +1,39 @@
-## Introduction
+Here is a summary of the basic commands you can use to navigate the command line:
 
-Add project description here. What will learners be making?
+```bash
+ls
+```
+`ls` lists directory contents
 
-### What you will make
+```bash
+pwd
+```
+`pwd` "print working directory" tells you what directory you are currently in.
 
-Add something here to showcase here, for example:
+```bash
+cd directoryname/
+```
+`cd` "change directory" navigates into the directory you want to go into.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+```bash
+cd ..
+```
+`cd ..` navigates up or back one directory.
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
 
-### What you will learn
+These additional commands are useful for creating and removing directories and files:
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+```bash
+mkdir directoryname/
+```
+`mkdir` "make directory" creates a new directory in the directory you are currently in.
 
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level){:target="_blank"}
+```bash
+cp filename.filetype path/to/directory
+```
+`cp` is followed by the name of the file to copy and then the directory you want it copied into.
 
-### Additional information for educators
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
-
-Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+```bash
+rm filename.filetype
+```
+`rm` removes or deletes files.
