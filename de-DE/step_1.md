@@ -1,39 +1,39 @@
-Here is a summary of the basic commands you can use to navigate the command line:
+Hier ist eine Zusammenfassung der grundlegenden Befehle, mit denen du in der Befehlszeile navigieren kannst:
 
-`ls` lists directory contents
+`ls` listet die Verzeichnisinhalte auf
 ```bash
 ls
 ```
 
-`pwd` "print working directory" tells you what directory you are currently in.
+`pwd` "print working directory" (Arbeitsverzeichnis anzeigen) sagt dir, in welchem Verzeichnis du dich gerade befindest.
 ```bash
 pwd
 ```
 
-`cd` "change directory" navigates into the directory you want to go into.
+`cd` "change directory" (Verzeichnis wechseln) navigiert in das Verzeichnis, in das Du wechseln möchtest.
 ```bash
 cd directoryname/
 ```
 
-`cd ..` navigates up or back one directory.
+`cd ..` navigiert ein Verzeichnis nach oben oder hinten.
 ```bash
 cd ..
 ```
 
 
-These additional commands are useful for creating and removing directories and files:
+Diese zusätzlichen Befehle sind nützlich zum Erstellen und Entfernen von Verzeichnissen und Dateien:
 
-`mkdir` "make directory" creates a new directory in the directory you are currently in.
+`mkdir` "make directory" (Verzeichnis erstellen) erstellt ein neues Verzeichnis in dem Verzeichnis, in dem du dich gerade befindest.
 ```bash
 mkdir directoryname/
 ```
 
-`cp` is followed by the name of the file to copy and then the directory you want it copied into.
+`cp` gefolgt vom Namen der zu kopierenden Datei und dann dem Verzeichnis, in das sie kopiert werden soll.
 ```bash
 cp filename.filetype path/to/directory
 ```
 
-`rm` removes or deletes files.
+`rm` entfernt oder löscht Dateien.
 ```bash
 rm filename.filetype
 ```
