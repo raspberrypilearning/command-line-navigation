@@ -1,39 +1,40 @@
-Hier ist eine Zusammenfassung der grundlegenden Befehle, mit denen du in der Befehlszeile navigieren kannst:
+### Essential commands
+Here is a summary of basic commands for navigating the command line:
 
-`ls` listet die Verzeichnisinhalte auf
+* `ls` lists the contents of the folder (directory) you're currently in:
 ```bash
 ls
 ```
 
-`pwd` "print working directory" (Arbeitsverzeichnis anzeigen) sagt dir, in welchem Verzeichnis du dich gerade befindest.
+* `pwd` stands for 'print working directory' and tells you what directory you are currently in:
 ```bash
 pwd
 ```
 
-`cd` "change directory" (Verzeichnis wechseln) navigiert in das Verzeichnis, in das Du wechseln möchtest.
+* `cd` stands for 'change directory' and navigates to the directory you want to move into:
 ```bash
 cd directoryname/
 ```
 
-`cd ..` navigiert ein Verzeichnis nach oben oder hinten.
+* `cd ..` navigates up one directory, meaning it moves you from a subfolder into its parent folder:
 ```bash
 cd ..
 ```
 
+### Additional commands
+These are useful for creating and removing directories and files.
 
-Diese zusätzlichen Befehle sind nützlich zum Erstellen und Entfernen von Verzeichnissen und Dateien:
-
-`mkdir` "make directory" (Verzeichnis erstellen) erstellt ein neues Verzeichnis in dem Verzeichnis, in dem du dich gerade befindest.
+* `mkdir` stands for 'make directory' and creates a new directory in the directory you are currently in:
 ```bash
 mkdir directoryname/
 ```
 
-`cp` gefolgt vom Namen der zu kopierenden Datei und dann dem Verzeichnis, in das sie kopiert werden soll.
+* `cp` is followed by the name of the file to copy and then the directory you want it copied into:
 ```bash
 cp filename.filetype path/to/directory
 ```
 
-`rm` entfernt oder löscht Dateien.
+* `rm` stands for 'remove' and deletes files (careful with this one, you cannot undo it):
 ```bash
 rm filename.filetype
 ```
